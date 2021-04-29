@@ -1,2 +1,2 @@
 # DeviceKit-Test
-Testing DeviceKit
+Testing DeviceKit included via Swift Package Manger.
