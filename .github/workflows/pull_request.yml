@@ -1,0 +1,22 @@
+name: Pull Request
+
+on: pull_request
+
+jobs:
+  build-and-test:
+    name: Build, Test
+    runs-on: macOS-latest
+    steps:
+      - name: Configure Xcode
+        run: |
+          xcodebuild -version
+          ls -nt /Applications/ | grep "Xcode*"
+          sudo xcode-select -switch /Applications/Xcode_12.4.app
+          xcodebuild -version
+          defaults write com.apple.dt.Xcode IDECustomDerivedDataLocation .derivedData
+      - name: Checkout branch
+        uses: actions/checkout@v2
+      - name: Build
+        run: make build
+      - name: Run Tests
+        run: make test
