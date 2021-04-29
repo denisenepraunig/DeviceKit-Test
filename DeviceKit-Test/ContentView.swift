@@ -6,10 +6,11 @@
 //
 
 import SwiftUI
+import DeviceKit
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
+        Text("Current Device: \(Device.current.description)")
             .padding()
     }
 }

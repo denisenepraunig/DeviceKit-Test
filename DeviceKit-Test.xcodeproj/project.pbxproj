@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F3B7731263B58230033D03E /* DeviceKit in Frameworks */ = {isa = PBXBuildFile; productRef = 9F3B7730263B58230033D03E /* DeviceKit */; };
 		9FF210E2263B5750004F8A84 /* DeviceKit_TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF210E1263B5750004F8A84 /* DeviceKit_TestApp.swift */; };
 		9FF210E4263B5750004F8A84 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF210E3263B5750004F8A84 /* ContentView.swift */; };
 		9FF210E6263B5751004F8A84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FF210E5263B5751004F8A84 /* Assets.xcassets */; };
@@ -52,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F3B7731263B58230033D03E /* DeviceKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,6 +148,9 @@
 			dependencies = (
 			);
 			name = "DeviceKit-Test";
+			packageProductDependencies = (
+				9F3B7730263B58230033D03E /* DeviceKit */,
+			);
 			productName = "DeviceKit-Test";
 			productReference = 9FF210DE263B5750004F8A84 /* DeviceKit-Test.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +222,9 @@
 				Base,
 			);
 			mainGroup = 9FF210D5263B5750004F8A84;
+			packageReferences = (
+				9F3B772F263B58230033D03E /* XCRemoteSwiftPackageReference "DeviceKit" */,
+			);
 			productRefGroup = 9FF210DF263B5750004F8A84 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -580,6 +588,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9F3B772F263B58230033D03E /* XCRemoteSwiftPackageReference "DeviceKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devicekit/DeviceKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9F3B7730263B58230033D03E /* DeviceKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9F3B772F263B58230033D03E /* XCRemoteSwiftPackageReference "DeviceKit" */;
+			productName = DeviceKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9FF210D6263B5750004F8A84 /* Project object */;
 }
