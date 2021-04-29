@@ -34,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9F3B7732263B59490033D03E /* DeviceKit-Test.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = "DeviceKit-Test.xctestplan"; sourceTree = "<group>"; };
 		9FF210DE263B5750004F8A84 /* DeviceKit-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DeviceKit-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FF210E1263B5750004F8A84 /* DeviceKit_TestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceKit_TestApp.swift; sourceTree = "<group>"; };
 		9FF210E3263B5750004F8A84 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -77,6 +78,7 @@
 		9FF210D5263B5750004F8A84 = {
 			isa = PBXGroup;
 			children = (
+				9F3B7732263B59490033D03E /* DeviceKit-Test.xctestplan */,
 				9FF210E0263B5750004F8A84 /* DeviceKit-Test */,
 				9FF210F2263B5751004F8A84 /* DeviceKit-TestTests */,
 				9FF210FD263B5751004F8A84 /* DeviceKit-TestUITests */,

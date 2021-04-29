@@ -1,0 +1,36 @@
+{
+  "configurations" : [
+    {
+      "id" : "3D629C95-35AB-49B9-8F3D-5A91FA8823B0",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:DeviceKit-Test.xcodeproj",
+      "identifier" : "9FF210DD263B5750004F8A84",
+      "name" : "DeviceKit-Test"
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:DeviceKit-Test.xcodeproj",
+        "identifier" : "9FF210EE263B5751004F8A84",
+        "name" : "DeviceKit-TestTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:DeviceKit-Test.xcodeproj",
+        "identifier" : "9FF210F9263B5751004F8A84",
+        "name" : "DeviceKit-TestUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
