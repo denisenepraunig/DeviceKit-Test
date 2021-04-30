@@ -8,7 +8,7 @@ build:
 		-configuration Debug \
 		-derivedDataPath $(DERIVED_DATA_PATH) \
 		-destination platform=$(PLATFORM) \
-		build-for-testing | xcbeautify
+		build-for-testing
 test:
 	set -o pipefail && xcodebuild \
 		-project DeviceKit-Test.xcodeproj \
