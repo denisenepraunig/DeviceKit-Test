@@ -1,2 +1,2 @@
 # DeviceKit-Test
-Testing DeviceKit
+Testing [DeviceKit](https://github.com/devicekit/DeviceKit) via Swift Package Manager.
